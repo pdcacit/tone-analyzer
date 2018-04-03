@@ -1,16 +1,5 @@
 package com.acn.acit.watsonservices.toneanalyzer;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-import com.google.gson.stream.JsonReader;
-import com.ibm.watson.developer_cloud.tone_analyzer.v3.ToneAnalyzer;
-import com.ibm.watson.developer_cloud.tone_analyzer.v3.model.ToneAnalysis;
-import com.ibm.watson.developer_cloud.tone_analyzer.v3.model.ToneInput;
-import com.ibm.watson.developer_cloud.tone_analyzer.v3.model.ToneOptions;
-
 public class GeneralToneAnalyzerDemo {
 	/*	
 	 * Please refer on Tone_Analyzer_HandsOn.ppt

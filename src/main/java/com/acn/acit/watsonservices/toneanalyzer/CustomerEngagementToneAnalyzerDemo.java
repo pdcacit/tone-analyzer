@@ -1,22 +1,5 @@
 package com.acn.acit.watsonservices.toneanalyzer;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-import com.google.gson.stream.JsonReader;
-import com.ibm.watson.developer_cloud.tone_analyzer.v3.ToneAnalyzer;
-import com.ibm.watson.developer_cloud.tone_analyzer.v3.model.ToneChatOptions;
-import com.ibm.watson.developer_cloud.tone_analyzer.v3.model.Utterance;
-import com.ibm.watson.developer_cloud.tone_analyzer.v3.model.UtteranceAnalyses;
-
-
 public class CustomerEngagementToneAnalyzerDemo {
 	/*	
 	 * Please refer on Tone_Analyzer_HandsOn.ppt
